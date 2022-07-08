@@ -48,4 +48,9 @@ The objective is to make a path with the pieces of your color between opposite s
 
 ->The α-β pruning algorithm is an extension of the minimax search that has two values alpha and beta that bind the score at each node or game state. The value of alpha is the lowest value bound to the node which is maximized in the search while` beta` is the highest and is minimized in the search.
 
+<p align = "center">
 <img src="minimax_alphabeta_tree.png" alt="Hex Game Tree α-β Minimax" style="zoom:40%;" />
+</p>
+
+## Heuristic
+I used heuristic score as the difference in path length of players where path length is the minimum number of moves to be made by the player so as to win (not accounting for the moves of the adversary).
