@@ -29,3 +29,23 @@ The objective is to make a path with the pieces of your color between opposite s
 <img src="hex-board-2.png" alt="Hex Board Blue Win" style="width:500px;" />
 </p>
 
+## Minimax Algorithm
+
+-> Minimax is a recursive algorithm which is used to choose an optimal move for a player assuming the opponent will also play optimally. As the name suggests, our goal is to minimize maximum loss (minimize worst-case scenario).
+
+-> A minimax search is a deep exhaustive search of a game tree that returns a score value. A minimax search has two phases called the maximize phase and minimize phase, respectively. The maximization phase occurs in all positions on the board where the first player has a turn and the minimization phase occurs in all positions on the board where the second player has a turn. The maximization phase returns the highest score assigned to the successors while the minimization phase returns the smallest value assigned to the successors.
+
+
+<p align = "center">
+<img src = "minimax_tree.png" alt = "Hex Game Tree Board 2x2" style="width:500px;" />
+</p>
+
+## α-β Pruning
+
+-> The idea behind this simple minimax improvement is that we can reduce the number of branches evaluated.
+
+-> Searching for the complete tree creates a player who never loses because he knows all the possible outcomes in full. But unlike the Tic Tac Toe which is a small board, displaying all its plays is not difficult on a computer machine. But for a game like Hex it is normally played on 11x11 boards, which is not an option. So we add a pruning to reduce the number of nodes searched, without affecting its optimality.
+
+  The `α-β` pruning algorithm is an extension of the` minimax` search that has two values ​​`alpha` and` beta` that bind the * 'score' * at each node or game state. The value of `alpha` is the lowest value bound to the node which is maximized in the search while` beta` is the highest and is minimized in the search.
+
+<img src="minimax_alphabeta_tree.png" alt="Hex Game Tree α-β Minimax" style="zoom:40%;" />
