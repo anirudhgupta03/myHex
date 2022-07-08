@@ -11,3 +11,9 @@
 <p align="center">
 <img src="hex-board-empty.png" alt="Hex Empty Board"  style="width:500px;" />
 </p>
+
+## Rules
+> -Initially the board is empty.
+> - Each player is assigned a color of tiles and two opposite sides of the board that they will have to try to connect with their tiles following the rules of the game.
+> - The players take turns placing chips on the board in unoccupied squares.
+> - The first player who manages to form a line of his pieces that connects his two sides wins.
