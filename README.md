@@ -46,6 +46,6 @@ The objective is to make a path with the pieces of your color between opposite s
 
 -> Searching for the complete tree creates a player who never loses because he knows all the possible outcomes in full. But unlike the Tic Tac Toe which is a small board, displaying all its plays is not difficult on a computer machine. But for a game like Hex it is normally played on 11x11 boards, which is not an option. So we add a pruning to reduce the number of nodes searched, without affecting its optimality.
 
-  The `α-β` pruning algorithm is an extension of the` minimax` search that has two values ​​`alpha` and` beta` that bind the * 'score' * at each node or game state. The value of `alpha` is the lowest value bound to the node which is maximized in the search while` beta` is the highest and is minimized in the search.
+->The α-β pruning algorithm is an extension of the minimax search that has two values alpha and beta that bind the score at each node or game state. The value of alpha is the lowest value bound to the node which is maximized in the search while` beta` is the highest and is minimized in the search.
 
 <img src="minimax_alphabeta_tree.png" alt="Hex Game Tree α-β Minimax" style="zoom:40%;" />
