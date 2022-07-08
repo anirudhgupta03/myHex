@@ -53,4 +53,4 @@ The objective is to make a path with the pieces of your color between opposite s
 </p>
 
 ## Heuristic
-I used heuristic score as the difference in path length of players where path length is the minimum number of moves to be made by the player so as to win (not accounting for the moves of the adversary).
+I have used heuristic score as the difference in path length of players where path length is the minimum number of moves to be made by the player so as to win (not accounting for the moves of the adversary).
