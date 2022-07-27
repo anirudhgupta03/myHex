@@ -54,3 +54,14 @@ The objective is to make a path with the pieces of your color between opposite s
 
 ## Heuristic
 I have used heuristic score as the difference in path length of players where path length is the minimum number of moves to be made by the player so as to win (not accounting for the moves of the adversary).
+
+## Implementation
+Hex Game Board
+<p align = "center">
+<img src="HexBoard.jpg" alt="Hex Game Board" style="width:500px;" />
+</p>
+
+Game won by AI!!!
+<p align = "center">
+<img src="AIWon.jpg" alt="Hex Game Board" style="width:500px;" />
+</p>
